@@ -1,6 +1,6 @@
 <?php
 include("../functions.php");
-pageTop("Connect Four",["stylesheets/reset.css","stylesheets/main.css", "stylesheets/game02.css"], ["js/jquery-3.4.1.js","js/connectfour.js","js/MainCf.js"]);
+pageTop("Connect Four",["stylesheets/reset.css","stylesheets/main3.css", "stylesheets/game02.css"], ["js/jquery-3.4.1.js","js/connectfour.js","js/MainCf.js"]);
 
 ?>
 

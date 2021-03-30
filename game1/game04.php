@@ -1,6 +1,6 @@
 <?php
 include("../functions.php");
-pageTop("home",["stylesheets/reset.css","stylesheets/main.css","stylesheets/game04.css"], ["js/phaser.js","js/game04.js"]);
+pageTop("home",["stylesheets/reset.css","stylesheets/main2.css","stylesheets/game04.css"], ["js/phaser.js","js/game04.js"]);
 ?>
 
 <section class="section" id="first">
