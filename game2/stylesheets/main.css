@@ -1,0 +1,225 @@
+body{
+    background-color: #000;
+    font-family: "Arial", sans-serif;
+}
+
+header.top#siteBanner{
+    width: 1280px;
+    height: 90px;
+    background-color: #000000;
+    margin: 0px auto;
+    position: relative;
+}
+
+header.top#siteBanner h1{
+    
+    color: #f2dede;
+    font-weight: bold;
+    margin: 0px auto;
+    position: absolute;
+    left: 420px;
+    top: 25px;
+    font-size: 35px;
+}
+
+
+header.top#siteBanner nav ul#mainMenu{
+    position: relative;
+    left: 0px;
+    top: 75px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+header.top#siteBanner nav ul#mainMenu li{
+    margin: 0px auto;
+}
+
+header.top#siteBanner nav ul#mainMenu li a.nav{
+    color: #f2dede;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 25px 125px;
+    float: left;
+    opacity: .25;
+}
+
+header.top#siteBanner nav ul#mainMenu li a.nav:hover{
+    color: #ffffff;
+    background: linear-gradient(.5turn, rgba(255, 255, 255, 0), rgba(255,255,255,0.2) 39px, rgba(255,255,255,0)); 
+    opacity: 1;
+}
+
+header.top#siteBanner nav li.dropdown{
+    color: #f2dede;
+    display: block;
+    font-size: 25px;
+    position: relative;
+    margin: 0px;
+    height: 75px;
+    z-index: 1000;
+    margin: 0px;
+}
+
+header.top#siteBanner nav li.dropdown:hover .dropdown-child{
+    color: #f2dede;
+    display: block;
+    position: absolute;
+    left: 0px;
+    margin: 0px;
+    width: 308px;
+}
+
+header.top#siteBanner nav .dropdown-child{
+    display: none;
+    float: left;
+    position: absolute;
+    left: -30px;
+    top: 75px;
+    padding: 0;
+    background: rgb(38, 38, 38, .8);
+    margin: 0px;
+    border-radius: 0px 0px 3px 3px;
+}
+
+header.top#siteBanner nav .dropdown-child a{
+    display: none;
+    padding: 0px;
+    opacity: .3;
+    color: #fff;
+}
+
+header.top#siteBanner nav .dropdown-child a:hover{
+    color: #ffffff;
+    background: linear-gradient(.5turn, rgba(255, 255, 255, 0), rgba(255,255,255,0.4) 23px, rgba(255,255,255,0)); 
+    opacity: 1;
+}
+
+header.top#siteBanner nav .dropdown-child a.dropdownSelector{
+    width: 115px;
+    display: block;
+    color: #f2dede;
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px 96px;
+    float: left;
+}
+
+div.divider{
+    background-color: #fff;
+    height: 1px;
+    width: 1280px;
+    margin: 0px auto;
+
+}
+
+section#first{
+    background-color: #2e2e2e;
+    width: 1279px;
+    margin: 0px auto;
+    position: relative;
+    top: 25px;
+    z-index: 5;
+}
+
+section#first table.content{
+    
+    position: relative;
+}
+
+section#first table.content tr.firstrow th{
+    padding:  10px;
+    background: #777777;
+    font-weight: bold;
+    color:#fff;
+}
+
+section#first table.content tr.secondrow td{
+      
+    margin: 0px auto;
+    padding: 0px 88px;
+
+}
+
+section#first table.content tr.secondrow img.game01pic{
+        
+}
+
+section#first table.content tr.secondrow img.game02pic{
+        
+}
+
+section#first table.content tr.secondrow img.game03pic{
+     
+}
+
+section#second{
+    background-color: #2e2e2e;
+    width: 1280px;
+    margin: 0px auto;
+    position: relative;
+    top: 25px;
+    z-index: 1;
+    height: 800px;
+}
+
+section#second .picOfMe{
+    height: 350px;
+    position: absolute;
+    top: 12%;
+    left: 2%;
+}
+
+section#second .wordContainer{
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    left: 23.5%;
+    top: 12%;
+    color: #cbcbcb;
+}
+
+section#second .wordContainer h2{
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0px;
+    width: 80px;
+    padding-bottom: 10px;
+}
+
+section#second .wordContainer ul{
+    line-height: 25px;
+    position: absolute;
+    left: 10px;
+}
+
+section#second .wordContainer a{
+    text-decoration: underline;
+    color: #00F7FF;
+}
+
+section#second .wordContainer .topPara{
+    padding-top: 10px;
+}
+
+section#second .wordContainer p{
+    line-height: 18px;
+}
+
+section#second .wordContainer .secondDivide{
+    width: 99%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+}
+
+section#third{
+    background-color: #2e2e2e;
+    width: 1280px;
+    margin: 0px auto;
+    position: relative;
+    top: 25px;
+    z-index: 1;
+    height: 50px;
+}
