@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Best Piece 02</title>
+    <link href="stylesheets/main.css" rel="stylesheet">
+        <link href="stylesheets/new.css" rel="stylesheet">
+        <link href="stylesheets/index.css" rel="stylesheet">
+</head>
+<body>
+    <section class="contentholder">
+       <header>
+        <h1 id="nametitle"><a href="index.html" id="title">Keegan Johnson</a></h1>
+        <section id="divider"></section>
+        <section id="whitespace">
+            <ul id="navbar">
+                <li id="home"><a class="selected" href="index.html">HOME</a></li>
+                <li id="about"><a id="navitems" href="about.html">ABOUT</a></li>
+                <li id="otherwork"><a id="navitems" href="otherwork.html">OTHER WORK</a></li>
+                <li id="contact"><a id="navitems" href="contact.html">CONTACT</a></li>
+            </ul>
+        </section>
+        </header>
+        <section id="info">
+            <img src="images/monkey.jpeg" id="profpic">
+            <p id="aboutme">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed augue lacus viverra vitae congue eu consequat ac. Cursus euismod quis viverra nibh. In hac habitasse platea dictumst quisque. Lectus arcu bibendum at varius vel pharetra vel. Feugiat scelerisque varius morbi enim nunc. Ac ut consequat semper viverra nam. Consequat nisl vel pretium lectus quam. Scelerisque purus semper eget duis at tellus at urna. Massa placerat duis ultricies lacus. Imperdiet proin fermentum leo vel orci porta non. Vel pharetra vel turpis nunc eget lorem. Mattis molestie a iaculis at erat pellentesque adipiscing.</p>
+
+<p id="aboutme">Felis donec et odio pellentesque diam volutpat commodo sed. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Iaculis eu non diam phasellus vestibulum lorem sed. Vulputate dignissim suspendisse in est ante in nibh mauris. Mattis vulputate enim nulla aliquet. Diam vel quam elementum pulvinar etiam. In fermentum et sollicitudin ac orci. Arcu odio ut sem nulla pharetra diam sit. Pharetra vel turpis nunc eget lorem dolor sed. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Velit egestas dui id ornare arcu odio ut sem. Suspendisse sed nisi lacus sed viverra tellus. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Dui id ornare arcu odio ut sem nulla pharetra diam. Adipiscing diam donec adipiscing tristique risus nec. Tempor id eu nisl nunc.</p>
+
+<p id="aboutme">Hac habitasse platea dictumst quisque sagittis purus. Massa enim nec dui nunc mattis enim. Donec enim diam vulputate ut pharetra sit. Mi sit amet mauris commodo quis imperdiet massa. Mi eget mauris pharetra et ultrices neque ornare aenean. Et malesuada fames ac turpis egestas integer eget aliquet nibh. Adipiscing tristique risus nec feugiat in fermentum. Quis auctor elit sed vulputate mi sit amet mauris. Eget nunc scelerisque viverra mauris in. Sed turpis tincidunt id aliquet risus feugiat in. Rhoncus mattis rhoncus urna neque. Arcu odio ut sem nulla pharetra diam. Quam pellentesque nec nam aliquam sem. Etiam erat velit scelerisque in dictum non consectetur a erat. Et tortor at risus viverra adipiscing at in. Eget egestas purus viverra accumsan. Vitae nunc sed velit dignissim sodales ut eu sem. Porttitor rhoncus dolor purus non enim praesent elementum. Viverra nibh cras pulvinar mattis nunc. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae.</p>
+        </section>
+        <footer>
+            <section id="socialstuff">
+                    <ul id="socialcontent">
+                       <li><a href="https://www.facebook.com/keegan.johnson.9849"><img src="images/facebookhover.png" class="socialstuff" id="facebook"></a></li>
+                       <li><a href="https://www.linkedin.com/in/keeganjohnson43/"><img src="images/linkedhove.png" class="socialstuff" id="linkedin" data-state="linkedin"></a></li>
+                       <li><a href="https://twitter.com/WTFguy13"><img src="images/twitterhover.png" class="socialstuff" id="twitter" data-state="twitter"></a></li>
+                    </ul>
+            </section>
+        </footer>
+    </section>
+    
+    <script>
+        
+            let collider = document.getElementById('socialcontent');        
+            let facebook = document.getElementById('facebook');
+            let linkedin = document.getElementById('linkedin');
+            let twitter = document.getElementById('twitter');
+            
+            collider.addEventListener("mouseover", function(e){
+                facebook.src = "images/facebooknohover.png";
+                linkedin.src = "images/linkednohover.png";
+                twitter.src = "images/twitternohover.png";
+            } );
+            collider.addEventListener("mouseleave", function(e){
+                facebook.src = "images/facebookhover.png";
+                linkedin.src = "images/linkedhove.png";
+                twitter.src = "images/twitterhover.png";
+            } );
+            facebook.addEventListener("mouseenter", function(e){
+                facebook.src = "images/facebookhover.png";
+            } );
+            linkedin.addEventListener("mouseenter", function(e){
+                linkedin.src = "images/linkedhove.png";
+            } );
+            twitter.addEventListener("mouseenter", function(e){
+                twitter.src = "images/twitterhover.png";
+            } );
+    </script>
+</body>
+</html>
